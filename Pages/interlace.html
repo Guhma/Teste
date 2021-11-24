@@ -1,0 +1,48 @@
+<!doctype HTML>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <meta charset="utf-8">
+        <title>Express - NodeJS API</title>
+    </head>
+
+    <body style="background: #835afd;">
+        <div style="font: 700 36px 'Poppins', sans-serif;
+        box-sizing: border-box;
+        font-size: 15px;
+        color: #FFF;
+        display: flex;
+        justify-content: center;
+        padding: 120px 80px;">
+
+        <form action="/interlace?" method="POST"
+        enctype="multpart/form-data">
+
+            <h1>Parte 1 - B</h1>
+
+            <p>Use como base: { "intervaloA": [ 20, 40 ], "intervaloB": [ 10, 60 ]}</p>
+
+            <p>Aviso: Qualquer mudança no escopo resultará em erro de sintaxe.</p>
+
+            <p>Digite o JSON das listas</p>
+
+            <input style="width: 500px; height: 50px;" type="text" name="interlaceData">
+
+            <button style="height: 50px;
+            border-radius: 8px;
+            font-weight: 500;
+            background: #835afd;
+            color: #FFF;
+            padding: 0 32px;
+            margin: 15px;
+            cursor: pointer;" 
+            type="submit">Enviar</button>
+            
+            <p>Caso queira ir para a página da lista de salas ordenadas, <a href="http://localhost:8080/ordenaLista">clique aqui</a></p>
+        </form>
+    </div>
+    </body>
+</html>
+
+
+
