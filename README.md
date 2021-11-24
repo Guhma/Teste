@@ -5,14 +5,17 @@ Teste prático utilizando NodeJS para criar e consumir uma API no Front-end e Ba
 
 # Primeiro vamos clonar o repositório
 crie uma pasta, abra o terminal e execute "git clone https://github.com/Guhma/Teste"
+
 ![image](https://user-images.githubusercontent.com/54249401/143292614-3ae3994a-66fd-4f45-a136-be68e9446f00.png)
 
 # Preparando o ambiente
 Após clonar o repositório, instale as dependências utilizando "npm install express, morgan, cors, nodemon, body-parser";
+
 ![image](https://user-images.githubusercontent.com/54249401/143292087-bbf541fa-f1fa-4735-b58a-9d2c602ba69d.png)
 
 # Iniciando o servidor
 Para iniciar o servidor, abra um terminal na pasta do projeto e digite o comando "node index.js";
+
 ![image](https://user-images.githubusercontent.com/54249401/143292152-a9c6d7d8-8d2b-4bc1-8c4d-194b03230558.png)
 
 # Acessando a aplicação no navegador
@@ -22,6 +25,7 @@ Como o projeto está configurado para executar na porta 8080, após iniciar o se
 
 # Página inicial
 O programa irá abrir em uma tela inicial com links para os dois formulários, escolha um deles e clique no link;
+
 ![image](https://user-images.githubusercontent.com/54249401/143292757-687f2671-28c6-4ec8-b082-8b364ef44335.png)
 
 # Informações adicionais
