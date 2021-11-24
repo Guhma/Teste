@@ -9,7 +9,7 @@ crie uma pasta, abra o terminal e execute "git clone https://github.com/Guhma/Te
 ![image](https://user-images.githubusercontent.com/54249401/143292614-3ae3994a-66fd-4f45-a136-be68e9446f00.png)
 
 # Preparando o ambiente
-Após clonar o repositório, instale as dependências utilizando "npm install express, morgan, cors, nodemon, body-parser";
+Após clonar o repositório, instale as dependências utilizando "npm install express morgan cors nodemon body-parser";
 
 ![image](https://user-images.githubusercontent.com/54249401/143292087-bbf541fa-f1fa-4735-b58a-9d2c602ba69d.png)
 
