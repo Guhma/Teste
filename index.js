@@ -25,7 +25,6 @@ app.post('/ordenaLista', (req, res) => {
         });
         
         letra.sort();
-        console.log(letra, numero);
   res.send("Resultado das listas ordenadas: "+JSON.stringify(numero)+" e " + JSON.stringify(letra));
 });
 
