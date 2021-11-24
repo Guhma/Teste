@@ -17,6 +17,7 @@ Para iniciar o servidor, abra um terminal na pasta do projeto e digite o comando
 
 # Acessando a aplicação no navegador
 Como o projeto está configurado para executar na porta 8080, após iniciar o servidor, abra o navegador de sua preferência e digite a URL http://localhost:8080/;
+
 ![image](https://user-images.githubusercontent.com/54249401/143292218-1c7bfe16-173c-447a-ba93-7afeb46d6365.png)
 
 # Página inicial
