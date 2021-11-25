@@ -33,15 +33,13 @@ var {interlaceData} = req.body;
 var interObj = JSON.parse(interlaceData);
 var intervaloA = interObj.intervaloA;
 var intervaloB = interObj.intervaloB;
-let result
+let result = false;
 
 intervaloA.filter(function(element) {
-    if (intervaloB.indexOf(element) !== -1 ) {
-        result = "true";
-    } else {
-        result = "false";
+    if (intervaloB.indexOf(element) !== -1) {  
+      result = true;
     }
-})
+  });
 res.send("Resultado: "+(result));
 });
 
